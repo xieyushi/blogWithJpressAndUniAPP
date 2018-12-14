@@ -1,0 +1,49 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue563",
+							"fontSize": "22px",
+							"fontSrc": "./static/uni.ttf",
+							"float": "left"
+						},{
+							"text": "\ue405",
+							"fontSize": "22px",
+							"fontSrc": "./static/uni.ttf",
+							"float": "right"
+						}]
+					}
+				},
+				"navigationBarTitleText": "好雨知时节",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "好雨知时节",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue405",
+							"fontSize": "22px",
+							"fontSrc": "./static/uni.ttf",
+							"float": "right"
+						}]
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "好雨知时节",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
